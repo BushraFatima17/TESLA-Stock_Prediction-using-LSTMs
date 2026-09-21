@@ -155,6 +155,9 @@ predictions = model.predict(X_test)
 - Output shape: (7, 35) - reshaped to (7, 7, 5) for readability
 - Inverse transforms predictions using the original scaler to get actual prices
 
+<img width="1005" height="545" alt="TeslaPredictions" src="https://github.com/user-attachments/assets/5c52cc5b-9e8a-4d1c-a6c8-5963e93048be" />
+
+
 ### 9. **Model Evaluation**
 - **Metric:** Mean Absolute Error (MAE) for closing price predictions
 - **Testing:** Evaluated on the last 7 days of data
